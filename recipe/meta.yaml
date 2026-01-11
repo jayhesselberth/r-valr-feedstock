@@ -34,6 +34,7 @@ requirements:
   host:
     - r-base
     - r-cpp11
+    - r-cpp11bigwig
     - r-broom
     - r-dplyr >=0.8.0
     - r-ggplot2
@@ -44,6 +45,7 @@ requirements:
   run:
     - r-base
     - r-cpp11
+    - r-cpp11bigwig
     - r-broom
     - r-dplyr >=0.8.0
     - r-ggplot2
