@@ -73,6 +73,7 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
+    - jayhesselberth
 
 # Package: valr
 # Type: Package
