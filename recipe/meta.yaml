@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/valr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/valr/valr_{{ version }}.tar.gz
-  sha256: 2379e896c1d052fc5e62dae1def9eddffcd0338ac4f12f7df5d9005e01a7edd3
+  sha256: e9531239774ecf72261942ba186ca5a5d3e4cb03cbad510b8c829f5f113b18b8
 
 build:
   number: 5
@@ -33,7 +33,7 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-rcpp >=1.0.0
+    - r-cpp11
     - r-broom
     - r-dplyr >=0.8.0
     - r-ggplot2
@@ -43,7 +43,7 @@ requirements:
     - r-tibble >=1.4.2
   run:
     - r-base
-    - r-rcpp >=1.0.0
+    - r-cpp11
     - r-broom
     - r-dplyr >=0.8.0
     - r-ggplot2
